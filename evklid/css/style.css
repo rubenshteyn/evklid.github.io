@@ -1,0 +1,106 @@
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #333;
+}
+
+a,
+button,
+input,
+textarea {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.container {
+  max-width: 1870px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section:first-child {
+  padding-top: 0;
+}
+
+.questions {
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1440px) {
+  h2 {
+    font-size: 36px;
+  }
+
+  .container {
+    padding: 0 56px;
+  }
+
+  section {
+    padding: 37px 0px;
+  }
+
+  section:last-child {
+    padding-bottom: 75px;
+  }
+}
+
+@media (max-width: 1250px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  .container {
+    padding: 0 49px;
+  }
+
+  section {
+    padding: 33px 0px;
+  }
+
+  section:last-child {
+    padding-bottom: 64px;
+  }
+}
+
+@media (max-width: 1100px) {
+  section {
+    padding: 40px 0px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  section:last-child {
+    padding-bottom: 82px;
+  }
+}
+
+@media (max-width: 640px) {
+  h2 {
+    font-size: 41px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  .container {
+    padding: 0px 14px;
+  }
+
+  section:last-child {
+    padding-bottom: 61px;
+  }
+
+  section {
+    padding: 30px 0px;
+  }
+}

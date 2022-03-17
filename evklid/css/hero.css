@@ -1,0 +1,239 @@
+/* hero */
+
+.hero {
+  padding-bottom: 50px;
+}
+
+.hero__container {
+  position: relative;
+  padding: 100px 80px;
+  color: #fff;
+}
+
+.hero__container-1 {
+  background: url("../img/low-angle-photo-of-balconies-2462015\ 1.jpg") 0 0 / cover no-repeat;
+}
+
+.hero__container-2 {
+  background: url("../img/brown-and-blue-glass-building-2093076\ 2.jpg") 0 0 / cover no-repeat;
+}
+
+.hero__container-3 {
+  background: url("../img/apartment-apartment-building-architecture-building-323705\ 2.jpg") 0 0 / cover no-repeat;
+}
+
+.hero__content {
+  width: 840px;
+  z-index: 99999;
+}
+
+.hero__p {
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+.hero__description {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+
+.hero__btn {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  padding: 24px 36px;
+  border: 1px solid #ff9900;
+  background: #ff9900;
+  color: #fff;
+}
+
+.hero__btn:focus,
+.hero__btn:hover {
+  border: 1px solid rgba(255, 153, 0, 0.7);
+  background: rgba(255, 153, 0, 0.7);
+}
+
+.hero__btn:active {
+  border: 1px solid #e1670e;
+  background: #e1670e;
+}
+
+@media (max-width: 1440px) {
+  /* hero */
+
+  .hero__p {
+    font-size: 53px;
+    margin-bottom: 18px;
+  }
+
+  .hero__content {
+    width: 761px;
+  }
+
+  .hero__container {
+    padding: 75px 60px;
+  }
+
+  .hero__description {
+    font-size: 18px;
+    margin-bottom: 67px;
+  }
+
+  .hero__btn {
+    font-size: 18px;
+    padding: 17px 26px;
+  }
+}
+
+@media (max-width: 1250px) {
+  /* hero */
+
+  .hero__content {
+    width: 584px;
+  }
+
+  .hero__container {
+    padding: 65px 50px;
+  }
+
+  .hero__p {
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+
+  .hero__description {
+    font-size: 15px;
+    margin-bottom: 59px;
+  }
+
+  .hero__btn {
+    font-size: 15px;
+    padding: 14px 22px;
+  }
+}
+
+@media (max-width: 1100px) {
+  /* hero */
+
+  .hero__content {
+    width: 698px;
+  }
+
+  .hero__container {
+    overflow: hidden;
+    padding-top: 160px;
+    padding-left: 79px;
+    padding-bottom: 159px;
+  }
+
+  .hero__p {
+    font-size: 60px;
+    margin-bottom: 16px;
+  }
+
+  .hero__description {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+
+  .hero__btn {
+    font-size: 24px;
+    padding: 24px 35px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .hero__content {
+    width: 665px;
+  }
+
+  .hero__p {
+    font-size: 57px;
+  }
+
+  .hero__description {
+    font-size: 17px;
+  }
+
+  .hero__btn {
+    font-size: 22px;
+    padding: 22px 31px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* hero */
+
+  .hero__content {
+    width: 585px;
+  }
+
+  .hero__container {
+    padding-top: 159px;
+    padding-left: 39px;
+  }
+
+  .hero__p {
+    font-size: 50px;
+  }
+
+  .hero__description {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero__p {
+    font-size: 32px;
+  }
+
+  .hero__btn {
+    font-size: 20px;
+    padding: 21px 31px;
+  }
+
+  .hero__description {
+    font-size: 14px;
+  }
+
+  .hero__content {
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  /* hero */
+
+  .hero__p {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  .hero__content {
+    margin: 0 auto;
+    text-align: center;
+    width: 290px;
+  }
+
+  .hero__container {
+    padding-top: 60px;
+    padding-left: 1px;
+    padding-bottom: 62px;
+    padding-right: 0;
+  }
+
+  .hero__description {
+    width: 253px;
+    margin-left: 18px;
+    font-size: 12px;
+    margin-bottom: 33px;
+  }
+
+  .hero__btn {
+    font-size: 12px;
+    padding: 11px 28px;
+  }
+}
